@@ -7,7 +7,7 @@ var bio = {
                 "twitter":"na",
                 "location":"Parkville, MD"
                },
-    "welcomeMessage":"Welcome to my Resume",
+    "welcomeMessage":"Welcome",
     "skills":["html", "css", "javascript", "jQuery", "php", "mySql" ],
     "biopic":"images/fry.jpg",
     "display":function() {
@@ -125,15 +125,15 @@ var work = {
             "employer":"AT&T",
             "title":"Software Engineer",
             "location":"7150 Standard Drive, Hanover, MD 21076",
-            "dates":"1998-",
-            "description":"Full stack development"
+            "dates":"1998-2015",
+            "description":"Develop web-based applications to assist other departments."
         },
         {
             "employer":"CSC",
             "title":"Intern",
             "location":"7231 Parkway Drive, Hanover, MD 21076",
             "dates":"1997-1998",
-            "description":"Security"
+            "description":"Worked in network security.  Also, assisted with application testing."
         }
     ],
     "display":function() {
@@ -166,15 +166,18 @@ var work = {
 var projects = {
     "projects":[
         {
-            "title":"Project 1",
-            "dates":"2001 - 2002",
-            "description":"Desc 1",
+            "title":"Ticket System",
+            "dates":"2013 - 2015",
+            "description":"Created a web-based ticketing system that communicates with cell sites "
+                          + "and stores information in a local database.  This is an on-going project.",
             "images":["images/197x148.gif", "images/197x148.gif"]
         },
         {
-            "title":"Project 2",
-            "dates":"2002 - 2003",
-            "description":"Desc 2",
+            "title":"Dashboard",
+            "dates":"2014 - 2015",
+            "description":"Developing a web-based dashboard that consolidates data from multiples sources, "
+                          + "including databases and email. The dashboard displays graphs and charts as well "
+                          + "as employee schedules.",
             "images":["images/197x148.gif"]
         }
     ],
